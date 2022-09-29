@@ -1,0 +1,18 @@
+num of peer 3
+num of peer 3
+num of peer 3
+Test (2A): initial election ...
+candidate 0 send vote to follower 2 success
+panic: runtime error: index out of range [2] with length 0
+
+goroutine 19 [running]:
+6.824/raft.(*Raft).GetEntry(...)
+	/root/6.824/src/raft/raftAppendEntries.go:36
+6.824/raft.(*Raft).AppendEntriesToPeer(0xc0000c8270, 0x2)
+	/root/6.824/src/raft/raftAppendEntries.go:58 +0x685
+6.824/raft.Make.func2.1(0xc0000c8270, 0x2)
+	/root/6.824/src/raft/raft.go:330 +0x3e
+created by 6.824/raft.Make.func2
+	/root/6.824/src/raft/raft.go:324 +0x5f
+exit status 2
+FAIL	6.824/raft	0.561s

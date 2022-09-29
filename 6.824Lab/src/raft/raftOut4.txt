@@ -1,0 +1,110 @@
+num of peer 3
+num of peer 3
+num of peer 3
+Test (2A): initial election ...
+peer 1 start a vote... 
+peer 1 ticker time: 705
+peer 1 send vote...
+0 gives 1 a request vote!
+peer 1 send vote...
+2 gives 1 a request vote!
+vote rpc need time:  572.088µs
+1 vote success!
+peer 1 isleader: true
+labgob error: lower-case field content of Log in RPC or persist/snapshot will break your Raft
+leader 1 sends 0 a HeartBeat!
+leader 1 sends 2 a HeartBeat!
+peer 0 get a heartbeat from leader 1
+peer 2 get a heartbeat from leader 1
+leader 1 sends 0 a HeartBeat!
+leader 1 sends 2 a HeartBeat!
+peer 0 get a heartbeat from leader 1
+peer 2 get a heartbeat from leader 1
+leader 1 sends 0 a HeartBeat!
+leader 1 sends 2 a HeartBeat!
+peer 0 get a heartbeat from leader 1
+peer 2 get a heartbeat from leader 1
+#####check: peer 1 is leader now!#####
+--- FAIL: TestInitialElection2A (4.72s)
+    config.go:481: servers disagree on term
+num of peer 3
+num of peer 3
+num of peer 3
+Test (2A): election after network failure ...
+*****check one leader*****
+peer 0 start a vote... 
+peer 0 ticker time: 707
+peer 0 send vote...
+0 to 1 send request vote failed!
+peer 0 send vote...
+0 to 2 send request vote failed!
+vote rpc need time:  80.294µs
+0 vote failed!
+peer 0 isleader: false
+peer 1 start a vote... 
+peer 1 ticker time: 705
+peer 1 send vote...
+0 gives 1 a request vote!
+peer 1 send vote...
+2 gives 1 a request vote!
+vote rpc need time:  369.041µs
+1 vote success!
+peer 1 isleader: true
+leader 1 sends 0 a HeartBeat!
+leader 1 sends 2 a HeartBeat!
+peer 2 get a heartbeat from leader 1
+peer 0 get a heartbeat from leader 1
+#####check: peer 1 is leader now!#####
+*****check one leader*****
+#####check: peer 1 is leader now!#####
+peer 2 start a vote... 
+peer 2 ticker time: 879
+peer 2 send vote...
+2 to 0 send request vote failed!
+peer 2 send vote...
+2 to 1 send request vote failed!
+vote rpc need time:  68.752µs
+2 vote failed!
+peer 2 isleader: false
+#####check: peer 1 is leader now!#####
+#####check: peer 1 is leader now!#####
+#####check: peer 1 is leader now!#####
+#####check: peer 1 is leader now!#####
+#####check: peer 1 is leader now!#####
+#####check: peer 1 is leader now!#####
+peer 2 start a vote... 
+peer 2 ticker time: 615
+peer 2 send vote...
+0 gives 2 a request vote!
+peer 2 send vote...
+#####check: peer 1 is leader now!#####
+2 to 1 send request vote failed!
+vote rpc need time:  587.182329ms
+2 vote success!
+peer 2 isleader: true
+leader 2 sends 0 a HeartBeat!
+peer 0 get a heartbeat from leader 2
+#####check: peer 1 is leader now!#####
+#####check: peer 2 is leader now!#####
+*****check one leader*****
+#####check: peer 1 is leader now!#####
+#####check: peer 2 is leader now!#####
+*****check no leader*****
+1 to 0 send heartbeat failed!
+--- FAIL: TestReElection2A (11.59s)
+    config.go:497: expected no leader among connected servers, but 1 claims to be leader
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+Test (2A): multiple elections ...
+2 to 1 send heartbeat failed!
+1 to 2 send heartbeat failed!
+--- FAIL: TestManyElections2A (5.29s)
+    config.go:468: expected one leader, got none
+FAIL
+exit status 1
+FAIL	6.824/raft	21.607s

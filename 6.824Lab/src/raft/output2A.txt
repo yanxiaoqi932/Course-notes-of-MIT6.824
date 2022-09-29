@@ -1,0 +1,828 @@
+num of peer 3
+num of peer 3
+num of peer 3
+Test (2A): initial election ...
+candidate 1 send vote to follower 2 success
+peer 1 is leader!
+leader 1 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+candidate 1 term < follower 0
+leader 1 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+  ... Passed --   3.0  3   38   12726    0
+num of peer 3
+num of peer 3
+num of peer 3
+Test (2A): election after network failure ...
+*****check one leader*****
+candidate 0 send vote to follower 2 success
+candidate 0 send vote to follower 1 success
+peer 0 is leader!
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+*****check one leader*****
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+candidate 2 send vote to follower 1 success
+peer 2 is leader!
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+*****check one leader*****
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+*****check no leader*****
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 send entry to 1 failed
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+*****check one leader*****
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+candidate 1 send vote to follower 0 success
+peer 1 is leader!
+leader 1 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+leader 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+*****check one leader*****
+leader 2 matchindex: 0, 0, 0
+leader 2 term < follower 1 term
+candidate 2 term < follower 0
+candidate 2 term < follower 1
+candidate 0 send vote to follower 2 success
+candidate 0 send vote to follower 1 success
+peer 0 is leader!
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+  ... Passed --   4.5  3   89   19135    0
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+num of peer 7
+Test (2A): multiple elections ...
+candidate 2 send vote to follower 6 success
+candidate 2 send vote to follower 3 success
+candidate 2 send vote to follower 4 success
+candidate 2 send vote to follower 1 success
+peer 2 is leader!
+candidate 2 send vote to follower 0 success
+candidate 2 send vote to follower 5 success
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+candidate 3 send vote to follower 6 success
+candidate 3 send vote to follower 5 success
+candidate 3 send vote to follower 0 success
+peer 3 is leader!
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 3 send entry to 2 failed
+leader 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 term < follower 0 term
+leader 2 term < follower 5 term
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+candidate 4 send vote to follower 2 success
+candidate 4 term < follower 0
+candidate 4 term < follower 5
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+candidate 0 send vote to follower 4 success
+candidate 0 send vote to follower 2 success
+candidate 0 send vote to follower 5 success
+peer 0 is leader!
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 1 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 2 commit index: 0, lastapplied index: 0
+peer 2 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+leader 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 matchindex: 0, 0, 0
+leader 3 term < follower 6 term
+leader 3 matchindex: 0, 0, 0
+leader 3 term < follower 1 term
+leader 3 matchindex: 0, 0, 0
+leader 3 term < follower 0 term
+candidate 2 send vote to follower 6 success
+candidate 2 send vote to follower 3 success
+candidate 2 send vote to follower 0 success
+candidate 2 send vote to follower 5 success
+peer 2 is leader!
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+candidate 2 send vote to follower 1 success
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 3 commit index: 0, lastapplied index: 0
+peer 3 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+leader 2 matchindex: 0, 0, 0
+peer 5 commit index: 0, lastapplied index: 0
+peer 5 matchindex: 0, 0, 0
+peer 0 commit index: 0, lastapplied index: 0
+peer 0 matchindex: 0, 0, 0
+peer 4 commit index: 0, lastapplied index: 0
+peer 4 matchindex: 0, 0, 0
+peer 6 commit index: 0, lastapplied index: 0
+peer 6 matchindex: 0, 0, 0
+peer 1 commit index: 0, lastapplied index: 0
+peer 1 matchindex: 0, 0, 0
+  ... Passed --   5.6  7  420   93273    0
+PASS
+ok  	6.824/raft	13.143s
