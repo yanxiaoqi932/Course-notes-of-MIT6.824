@@ -52,18 +52,6 @@ import (
 )
 
 //
-// as each Raft peer becomes aware that successive log entries are
-// committed, the peer should send an ApplyMsg to the service (or
-// tester) on the same server, via the applyCh passed to Make(). set
-// CommandValid to true to indicate that the ApplyMsg contains a newly
-// committed log entry.
-//
-// in part 2D you'll want to send other kinds of messages (e.g.,
-// snapshots) on the applyCh, but set CommandValid to false for these
-// other uses.
-//
-
-//
 // role
 //
 const (
@@ -149,10 +137,6 @@ type Raft struct {
 	InstallSnapshotChan []chan struct{}
 	ElectionTimer       *time.Timer   // timer of ecection
 	AppendEntriesTimers []*time.Timer // timer of send entry
-	// Your data here (2A, 2B, 2C).
-	// Look at the paper's Figure 2 for a description of what
-	// state a Raft server must maintain.
-
 }
 
 // return currentTerm and whether this server
@@ -177,10 +161,6 @@ func (rf *Raft) persist() {
 }
 
 //
-// restore previously persisted state.
-//
-
-//
 // A service wants to switch to snapshot.  Only do so if Raft hasn't
 // have more recent info since it communicate the snapshot on applyCh.
 //
@@ -196,7 +176,6 @@ func (rf *Raft) CondInstallSnapshot(lastIncludedTerm int, lastIncludedIndex int,
 // service no longer needs the log through (and including)
 // that index. Raft should now trim its log as much as possible.
 func (rf *Raft) Snapshot(index int, snapshot []byte) {
-	// Your code here (2D).
 	// 根据service的指示裁剪rf.logs，并且储存snapshot内容
 	// 注意这里的index是全局index
 	index = index - rf.lastSnapShotIndex
@@ -218,16 +197,6 @@ func (rf *Raft) Snapshot(index int, snapshot []byte) {
 	raftStateData := rf.WritePersist()
 	rf.persister.SaveStateAndSnapshot(raftStateData, snapshot)
 
-	// 完成snapshot后发送消息给service
-
-	// msg := ApplyMsg{
-	// 	CommandValid:  false,
-	// 	SnapshotValid: true,
-	// 	Snapshot:      snapshot,
-	// 	SnapshotTerm:  rf.lastSnapShotTerm,
-	// 	SnapshotIndex: rf.lastSnapShotIndex,
-	// }
-	// rf.ApplyMsgChan <- msg // 避免主线程与commit log goroutine争抢rf.ApplyMsgChan
 }
 
 //

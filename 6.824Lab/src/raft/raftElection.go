@@ -17,13 +17,11 @@ type RequestVoteArgs struct {
 type RequestVoteReply struct {
 	HasVoted bool
 	Term     int
-	// Your data here (2A).
 }
 
 func (rf *Raft) RequestVote(args *RequestVoteArgs, reply *RequestVoteReply) {
 	reply.Term = rf.currentTerm
 	if args.Term < rf.currentTerm {
-		// fmt.Printf("candidate %d term < follower %d\n", args.CandidateId, rf.me)
 		reply.HasVoted = false
 		return
 	} else if args.Term > rf.currentTerm {
@@ -32,7 +30,6 @@ func (rf *Raft) RequestVote(args *RequestVoteArgs, reply *RequestVoteReply) {
 	}
 	lastLogTerm, lastLogIndex := rf.GetLastLogTermIndex()
 	if args.LastLogTerm < lastLogTerm || (args.LastLogTerm == lastLogTerm && args.LastLogIndex < lastLogIndex) {
-		// fmt.Printf("candidate %d lastlogterm/index < follower %d\n", args.CandidateId, rf.me)
 		reply.HasVoted = false
 		return
 	}
@@ -43,8 +40,6 @@ func (rf *Raft) RequestVote(args *RequestVoteArgs, reply *RequestVoteReply) {
 	rf.currentTerm = args.Term
 	rf.ChangeRole(follower)
 	rf.ResetElectionTimer()
-	// fmt.Printf("candidate %d send vote to follower %d success\n", args.CandidateId, rf.me)
-	// Your code here (2A, 2B).
 }
 
 func (rf *Raft) StartElection() {
@@ -85,7 +80,6 @@ func (rf *Raft) StartElection() {
 				}(server, args, reply)
 				select {
 				case <-RPCTimer.C:
-					// fmt.Printf("peer %d send vote to %d timeout\n", rf.me, server)
 					reply := RequestVoteReply{Term: -1, HasVoted: false}
 					voteCh <- reply
 					return
@@ -121,7 +115,6 @@ func (rf *Raft) StartElection() {
 	}
 
 	if numVote > rf.numServer/2 {
-		// fmt.Printf("peer %d is leader!\n", rf.me)
 		rf.ChangeRole(leader)
 		return
 	} else {
@@ -142,7 +135,6 @@ func (rf *Raft) ChangeRole(role int) {
 		rf.role = leader
 		rf.votedFor = rf.me
 		rf.currentTerm++
-		// _, lastLogIndex := rf.GetLastLogTermIndex()
 		for i := 0; i < rf.numServer; i++ {
 			// 成为leader后同步所有follower的matchIndex
 			// 默认为leader.log的最后一个log的位置

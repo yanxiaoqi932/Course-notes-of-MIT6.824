@@ -100,16 +100,12 @@ func (rf *Raft) readPersist(raftState []byte) {
 	if raftState == nil || len(raftState) < 1 { // bootstrap without any state?
 		return
 	}
-	// Your code here (2C).
-	// Example:
 	r := bytes.NewBuffer(raftState)
 	d := labgob.NewDecoder(r)
 	var currentTerm int
 	var votedFor int
 	var logs []Log
 	var lastSnapshotIndex int
-	// var lastApplied int
-	// var commitIndex int
 	if d.Decode(&currentTerm) != nil ||
 		d.Decode(&votedFor) != nil ||
 		d.Decode(&logs) != nil ||
@@ -120,18 +116,5 @@ func (rf *Raft) readPersist(raftState []byte) {
 		rf.votedFor = votedFor
 		rf.logs = logs
 		rf.lastSnapShotIndex = lastSnapshotIndex
-		// fmt.Printf("restart, peer %d rf.lastSnapShotIndex = %d\n", rf.me, rf.lastSnapShotIndex)
-		// rf.lastApplied = lastApplied
-		// rf.commitIndex = commitIndex
 	}
 }
-
-// func (rf *Raft) WriteSnapshotPersist(snapshotState SnapshotState) []byte {
-// 	w := new(bytes.Buffer)
-// 	e := labgob.NewEncoder(w)
-// 	e.Encode(snapshotState.Cmd)
-// 	e.Encode(snapshotState.SnapshotLastTerm)
-// 	e.Encode(snapshotState.SnapshotLastIndex)
-// 	data := w.Bytes()
-// 	return data
-// }

@@ -39,7 +39,6 @@ func (rf *Raft) InstallSnapshot(args *SnapshotArgs, reply *SnapshotReply) {
 	// 别忘了在persister中保存raftstate和snapshot
 	raftStateData := rf.WritePersist()
 	rf.persister.SaveStateAndSnapshot(raftStateData, args.Snapshot)
-	// fmt.Printf("peer %d get snapshot\n", rf.me)
 	rf.CommitChan <- struct{}{}
 }
 
@@ -87,7 +86,6 @@ func (rf *Raft) SendSnapshot(server int) {
 				continue
 			}
 		}
-		// fmt.Printf("leader %d send snapshot to peer %d success\n", rf.me, server)
 		rf.matchIndex[server] = reply.MatchIndex - rf.lastSnapShotIndex
 		return
 	}
